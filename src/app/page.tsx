@@ -6,6 +6,8 @@ import Platform from "@/components/Home/platform";
 import Portfolio from "@/components/Home/portfolio";
 import Upgrade from "@/components/Home/upgrade";
 import Perks from "@/components/Home/perks";
+import './globals.css'; // ✅ correct for app directory
+
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "CrypGo",
