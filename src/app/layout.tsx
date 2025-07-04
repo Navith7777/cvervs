@@ -6,6 +6,7 @@ import { ThemeProvider } from "next-themes";
 import ScrollToTop from "@/components/ScrollToTop";
 import Aoscompo from "@/utils/aos";
 const font = DM_Sans({ subsets: ["latin"] });
+import './globals.css'; // ✅ correct for app directory
 
 export default function RootLayout({
   children,
